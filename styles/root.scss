@@ -1,0 +1,54 @@
+---
+---
+@use "sass:color";
+@use "sass:string";
+
+$primary: #FA003F;
+$secondary: #FA3E00;
+$lightmode: #333333;
+$darkmode: #EEEEEE;
+
+@function rgbh($hexcolor) {
+    $red: color.channel($hexcolor, "red", $space: rgb);
+    $green: color.channel($hexcolor, "green", $space: rgb);
+    $blue: color.channel($hexcolor, "blue", $space: rgb);
+    @return string.unquote("#{$red}, #{$green}, #{$blue}");
+}
+
+@function tint($color, $percentage) {
+    @return color.mix(white, $color, $percentage);
+}
+@function shade($color, $percentage) {
+    @return color.mix(black, $color, $percentage);
+}
+
+:root {
+    --bs-primary: #{$primary} !important;
+    --bs-primary-rgb: #{rgbh($primary)} !important;
+    --bs-primary-text-emphasis: #{shade($primary, 60%)} !important;
+    --bs-primary-border-subtle: #{tint($primary, 60%)} !important;
+    --bs-primary-bg-subtle: #{tint($primary, 80%)} !important;
+    --bs-secondary: #{$secondary} !important;
+    --bs-secondary-rgb: #{rgbh($secondary)} !important;
+    --bs-secondary-text-emphasis: #{shade($secondary, 60%)} !important;
+    --bs-secondary-border-subtle: #{tint($secondary, 60%)} !important;
+    --bs-secondary-bg-subtle: #{tint($secondary, 80%)} !important;
+    --bs-link-color: #{$primary} /*var(--bs-primary)*/ !important;
+    --bs-link-color-rgb: #{rgbh($primary)} /*var(--bs-primary-rgb)*/ !important;
+    --bs-link-hover-color: #{$secondary} /*var(--bs-secondary)*/ !important;
+    --bs-link-hover-color-rgb: #{rgbh($secondary)} /*var(--bs-secondary-rgb)*/ !important;
+}
+
+
+[data-bs-theme="light"] {
+    --bs-body-color: #{$lightmode} !important;
+    --bs-body-color-rgb: #{rgbh($lightmode)} !important;
+    --bs-body-bg: #{$darkmode} !important;
+    --bs-body-bg-rgb: #{rgbh($darkmode)} !important;
+}
+[data-bs-theme="dark"] {
+    --bs-body-color: #{$darkmode} !important;
+    --bs-body-color-rgb: #{rgbh($darkmode)} !important;
+    --bs-body-bg: #{$lightmode} !important;
+    --bs-body-bg-rgb: #{rgbh($lightmode)} !important;
+}
