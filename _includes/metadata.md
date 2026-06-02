@@ -17,11 +17,6 @@
 <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/images/rose_square.jpg" />
 <meta name="twitter:card" content="summary" />
 
-<!-- Local CSS & JavaScript -->
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/root.css" />
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/index.css" />
-<script src="{{ site.baseurl }}/scripts/index.js" type="text/javascript"></script>
-
 <!-- CSS libraries: jQuery, Bootstrap, Bootstrap Icons -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
@@ -31,3 +26,8 @@
 <!-- JavaScript libraries: jQuery, Bootstrap -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Local CSS & JavaScript -->
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/root.css" />
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/index.css" />
+<script src="{{ site.baseurl }}/scripts/index.js" type="text/javascript"></script>
