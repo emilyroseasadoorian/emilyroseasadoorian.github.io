@@ -9,7 +9,7 @@ layout: skeleton
     </main>
     <footer class="w-100 py-2">
         <!-- original feature is to sample a variety of cute icons here -->
-        <i class="bi-balloon-heart me-2"></i>E. Rose Asadoorian | 2023 - 2026
+        <i class="bi-balloon-heart me-2"></i>2023 - 2026 | E. Rose Asadoorian | <a href="https://github.com/emilyroseasadoorian/emilyroseasadoorian.github.io">Repo</a>
     </footer>
 </div>
 
