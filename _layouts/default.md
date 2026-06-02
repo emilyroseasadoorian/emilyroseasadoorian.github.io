@@ -8,7 +8,8 @@ layout: skeleton
 {{ content }}
     </main>
     <footer class="w-100 py-2">
-        <i class="bi-{{ site.data.copyicons | sample }} me-2"></i>E. Rose Asadoorian | 2023 - 2026
+        <!-- original feature is to sample a variety of cute icons here -->
+        <i class="bi-balloon-heart me-2"></i>E. Rose Asadoorian | 2023 - 2026
     </footer>
 </div>
 
