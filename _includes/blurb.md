@@ -2,7 +2,7 @@
     <div class="headline mb-3">
         <h2 class="d-inline me-1"><a href="poems/{{ poem.slug }}" class="poemTitle poemSearch">{{ poem.title }}</a></h2>
     </div>
-    <div class="poemDetails poemSearch">
+    <div class="poemDetails poemSearch mb-2">
 {% include details.md %}
     </div>
 </div>
