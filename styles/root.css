@@ -1,0 +1,36 @@
+/*
+ * GitHub Pages cannot handle Jekyll + SCSS !
+ * It may just be a linter error;
+ * temporarily deferring to precompiled.
+ */
+
+:root {
+  --bs-primary: #FA003F !important;
+  --bs-primary-rgb: 250, 0, 63 !important;
+  --bs-primary-text-emphasis: rgb(100, 0, 25.2) !important;
+  --bs-primary-border-subtle: rgb(253, 153, 178.2) !important;
+  --bs-primary-bg-subtle: rgb(254, 204, 216.6) !important;
+  --bs-secondary: #FA3E00 !important;
+  --bs-secondary-rgb: 250, 62, 0 !important;
+  --bs-secondary-text-emphasis: rgb(100, 24.8, 0) !important;
+  --bs-secondary-border-subtle: rgb(253, 177.8, 153) !important;
+  --bs-secondary-bg-subtle: rgb(254, 216.4, 204) !important;
+  --bs-link-color: #FA003F /*var(--bs-primary)*/ !important;
+  --bs-link-color-rgb: 250, 0, 63 /*var(--bs-primary-rgb)*/ !important;
+  --bs-link-hover-color: #FA3E00 /*var(--bs-secondary)*/ !important;
+  --bs-link-hover-color-rgb: 250, 62, 0 /*var(--bs-secondary-rgb)*/ !important;
+}
+
+[data-bs-theme=light] {
+  --bs-body-color: #333333 !important;
+  --bs-body-color-rgb: 51, 51, 51 !important;
+  --bs-body-bg: #EEEEEE !important;
+  --bs-body-bg-rgb: 238, 238, 238 !important;
+}
+
+[data-bs-theme=dark] {
+  --bs-body-color: #EEEEEE !important;
+  --bs-body-color-rgb: 238, 238, 238 !important;
+  --bs-body-bg: #333333 !important;
+  --bs-body-bg-rgb: 51, 51, 51 !important;
+}
