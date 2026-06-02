@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
 # Core
-gem "sass-embedded"
-gem "neocities"
 gem "jekyll"
+gem "sass-embedded"
 
 # Plugins
 gem "jekyll-target-blank"
+gem "jekyll-redirect-from"

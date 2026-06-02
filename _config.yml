@@ -40,6 +40,10 @@ sass:
 
 plugins:
   - jekyll-target-blank
+  - jekyll-redirect-from
+
+redirect_from:
+  json: false
 
 # Page settings
 
