@@ -6,4 +6,4 @@ I am a lifetime [Ruby](https://www.ruby-lang.org/en) developer who enjoys creati
 
 ---
 
-&copy; 2023 - 2026 | E. Rose Asadoorian
+&copy; 2026 | E. Rose Asadoorian
