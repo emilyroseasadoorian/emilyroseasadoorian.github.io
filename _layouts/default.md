@@ -2,6 +2,7 @@
 layout: skeleton
 ---
 <div id="mainContainer" class="px-3">
+{% include navbar.md %}
     <h1 class="border-bottom border-primary border-opacity-25 mb-3 py-2">{{ page.title }}</h1>
     <main class="border-bottom border-primary border-opacity-25">
 {{ content }}
