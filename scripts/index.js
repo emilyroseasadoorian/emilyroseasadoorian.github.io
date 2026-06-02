@@ -13,7 +13,7 @@ function searchBlurbs() {
     var searchText = new RegExp($("#searchBar").val(), 'gim');
     $(".blurb").each(function () {
         var currBlurb = $(this); var matched = false;
-        $(this).find(".poemDetails").each(function () {
+        $(this).find(".poemSearch").each(function () {
             if (searchText.test($(this).html())) {
                 matched = true; return true;
             }
