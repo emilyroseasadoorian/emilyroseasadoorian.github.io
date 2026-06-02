@@ -18,6 +18,7 @@
 <meta name="twitter:card" content="summary" />
 
 <!-- Local CSS & JavaScript -->
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/root.css" />
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/index.css" />
 <script src="{{ site.baseurl }}/scripts/index.js" type="text/javascript"></script>
 
