@@ -20,6 +20,8 @@ description: >-
   A mockup of a creative writing archive based on my personal website!
 baseurl: "" # was /liquid
 url: "https://emilyroseasadoorian.github.io"
+github: "https://github.com/emilyroseasadoorian"
+repo: "emilyroseasadoorian.github.io"
 
 # Build settings
 
