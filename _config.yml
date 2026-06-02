@@ -55,7 +55,7 @@ defaults:
       layout: default
   -
     scope:
-      path: poems
+      type: poems
     values:
       layout: poem
 
