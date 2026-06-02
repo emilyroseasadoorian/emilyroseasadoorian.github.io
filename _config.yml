@@ -48,7 +48,12 @@ defaults:
     scope:
       path: ""
     values:
-      layout: skeleton
+      layout: default
+  -
+    scope:
+      path: "poems"
+    values:
+      layout: poem
 
 # Exclude from processing.
 # The following items will not be processed, by default.
