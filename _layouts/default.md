@@ -11,3 +11,6 @@ layout: skeleton
         <i class="bi-{{ site.data.copyicons | sample }} me-2"></i>E. Rose Asadoorian | 2023 - 2026
     </footer>
 </div>
+
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/index.css" />
+<script src="{{ site.baseurl }}/scripts/index.js" type="text/javascript"></script>
