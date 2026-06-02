@@ -6,22 +6,42 @@ wordcount: 125
 source: "https://hellopoetry.com/poems/9487/rain"
 ---
 
+<p>
 a symphony orchestra.
+<br />
 there is a thunderstorm,
+<br />
 they are playing a Wagner overture
+<br />
 and the people leave their seats under the trees
+<br />
 and run inside to the pavilion
+<br />
 the women giggling, the men pretending calm,
+<br />
 wet cigarettes being thrown away,
+<br />
 Wagner plays on, and then they are all under the
+<br />
 pavilion. the birds even come in from the trees
+<br />
 and enter the pavilion and then it is the Hungarian
+<br />
 Rhapsody #2 by Lizst, and it still rains, but look,
+<br />
 one man sits alone in the rain
+<br />
 listening. the audience notices him. they turn
+<br />
 and look. the orchestra goes about its
+<br />
 business. the man sits in the night in the rain,
+<br />
 listening. there is something wrong with him,
+<br />
 isn't there?
+<br />
 he came to hear the
+<br />
 music.
+</p>
