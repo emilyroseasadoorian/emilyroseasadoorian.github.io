@@ -18,7 +18,7 @@ title: Liquid Mockup
 email: emilyroseasadoorian@gmail.com
 description: >-
   A mockup of a creative writing archive based on my personal website!
-baseurl: "/liquid"
+baseurl: "" # was /liquid
 url: "https://emilyroseasadoorian.github.io"
 
 # Build settings
@@ -60,9 +60,8 @@ defaults:
       layout: poem
 
 collections:
-    poems:
-      title: "Poems"
-      output: true
+  poems:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
