@@ -2,7 +2,9 @@
 title: "Poem Index"
 ---
 
-
+{% for poem in site.poems %}
+{% include blurb.md %}
+{% endfor %}
 
 <hr />
 
