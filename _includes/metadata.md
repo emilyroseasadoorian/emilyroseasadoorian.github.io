@@ -13,8 +13,8 @@
 <meta property="og:description" content="{{ site.description }}" />
 <meta property="og:url" content="{{ page.url }}" />
 <meta property="og:title" content="{{ title }}{{ site.title }}" />
-<meta property="og:image" content="{{ site.url }}/{{ site.baseurl }}/images/rose_square.jpg" />
-<meta name="twitter:image" content="{{ site.url }}/{{ site.baseurl }}/images/rose_square.jpg" />
+<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/rose_square.jpg" />
+<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/images/rose_square.jpg" />
 <meta name="twitter:card" content="summary" />
 
 <!-- Local CSS & JavaScript -->
