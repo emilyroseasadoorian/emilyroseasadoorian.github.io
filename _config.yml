@@ -51,9 +51,14 @@ defaults:
       layout: default
   -
     scope:
-      path: "poems"
+      path: poems
     values:
       layout: poem
+
+collections:
+    poems:
+      title: "Poems"
+      output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
